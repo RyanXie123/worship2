@@ -1,0 +1,42 @@
+[
+    {
+        "index": 0,
+        "title": "恩泉佳音",
+        "route_name": "enquan1",
+        "song_list_json_name": "enquan.json",
+        "path_prefix": "https://shige-1252150594.cos.ap-shanghai.myqcloud.com/",
+        "num_prefix_length": 3
+    },
+    {
+        "index": 1,
+        "title": "新编赞美诗",
+        "route_name": "xianbian",
+        "song_list_json_name": "xinbian.json",
+        "path_prefix": "https://xinbian-1252150594.cos.ap-shanghai.myqcloud.com/",
+        "num_prefix_length": 3
+    },
+    {
+        "index": 2,
+        "title": "赞美诗选编1050",
+        "route_name": "xuanbian1050",
+        "song_list_json_name": "xuanbian1050.json",
+        "path_prefix": "https://xuanbina1050-1252150594.cos.ap-shanghai.myqcloud.com/",
+        "num_prefix_length": 4
+    },
+    {
+        "index": 3,
+        "title": "赞美诗歌1300 ",
+        "route_name": "zanmei1300",
+        "song_list_json_name": "zanmei1300.json",
+        "path_prefix": "https://zanmei1300-1252150594.cos.ap-shanghai.myqcloud.com/",
+        "num_prefix_length": 4
+    },
+    {
+        "index": 4,
+        "title": "赞美诗歌1218 ",
+        "route_name": "zanmei1218",
+        "song_list_json_name": "zanmei1218.json",
+        "path_prefix": "https://zanmei1218-1252150594.cos.ap-shanghai.myqcloud.com/",
+        "num_prefix_length": 4
+    }
+]

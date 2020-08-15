@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF43A23724D0663700E8470A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43A23624D0663700E8470A /* AppDelegate.swift */; };
+		CF43A23B24D0663700E8470A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43A23A24D0663700E8470A /* ViewController.swift */; };
+		CF43A23E24D0663700E8470A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF43A23C24D0663700E8470A /* Main.storyboard */; };
+		CF43A24024D0663800E8470A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF43A23F24D0663800E8470A /* Assets.xcassets */; };
+		CF43A24324D0663800E8470A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF43A24124D0663800E8470A /* LaunchScreen.storyboard */; };
+		CF43A24E24D0663800E8470A /* WorshipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43A24D24D0663800E8470A /* WorshipTests.swift */; };
+		CF43A25924D0663800E8470A /* WorshipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43A25824D0663800E8470A /* WorshipUITests.swift */; };
+		CF43A26A24D0671100E8470A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43A26924D0671100E8470A /* HomeViewController.swift */; };
+		CF43A26F24D0683A00E8470A /* song_book_list.json in Resources */ = {isa = PBXBuildFile; fileRef = CF43A26D24D0683A00E8470A /* song_book_list.json */; };
+		CF43A27024D0683A00E8470A /* enquan.json in Resources */ = {isa = PBXBuildFile; fileRef = CF43A26E24D0683A00E8470A /* enquan.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF43A24A24D0663800E8470A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF43A22B24D0663700E8470A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF43A23224D0663700E8470A;
+			remoteInfo = Worship;
+		};
+		CF43A25524D0663800E8470A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF43A22B24D0663700E8470A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF43A23224D0663700E8470A;
+			remoteInfo = Worship;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF43A23324D0663700E8470A /* Worship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Worship.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF43A23624D0663700E8470A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF43A23A24D0663700E8470A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF43A23D24D0663700E8470A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF43A23F24D0663800E8470A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF43A24224D0663800E8470A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF43A24424D0663800E8470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF43A24924D0663800E8470A /* WorshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF43A24D24D0663800E8470A /* WorshipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorshipTests.swift; sourceTree = "<group>"; };
+		CF43A24F24D0663800E8470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF43A25424D0663800E8470A /* WorshipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorshipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF43A25824D0663800E8470A /* WorshipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorshipUITests.swift; sourceTree = "<group>"; };
+		CF43A25A24D0663800E8470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF43A26924D0671100E8470A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CF43A26D24D0683A00E8470A /* song_book_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = song_book_list.json; sourceTree = "<group>"; };
+		CF43A26E24D0683A00E8470A /* enquan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = enquan.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF43A23024D0663700E8470A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A24624D0663800E8470A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A25124D0663800E8470A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF43A22A24D0663700E8470A = {
+			isa = PBXGroup;
+			children = (
+				CF43A23524D0663700E8470A /* Worship */,
+				CF43A24C24D0663800E8470A /* WorshipTests */,
+				CF43A25724D0663800E8470A /* WorshipUITests */,
+				CF43A23424D0663700E8470A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF43A23424D0663700E8470A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A23324D0663700E8470A /* Worship.app */,
+				CF43A24924D0663800E8470A /* WorshipTests.xctest */,
+				CF43A25424D0663800E8470A /* WorshipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF43A23524D0663700E8470A /* Worship */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A26C24D0682D00E8470A /* SongData */,
+				CF43A26924D0671100E8470A /* HomeViewController.swift */,
+				CF43A26B24D0671600E8470A /* Home */,
+				CF43A23624D0663700E8470A /* AppDelegate.swift */,
+				CF43A23A24D0663700E8470A /* ViewController.swift */,
+				CF43A23C24D0663700E8470A /* Main.storyboard */,
+				CF43A23F24D0663800E8470A /* Assets.xcassets */,
+				CF43A24124D0663800E8470A /* LaunchScreen.storyboard */,
+				CF43A24424D0663800E8470A /* Info.plist */,
+			);
+			path = Worship;
+			sourceTree = "<group>";
+		};
+		CF43A24C24D0663800E8470A /* WorshipTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A24D24D0663800E8470A /* WorshipTests.swift */,
+				CF43A24F24D0663800E8470A /* Info.plist */,
+			);
+			path = WorshipTests;
+			sourceTree = "<group>";
+		};
+		CF43A25724D0663800E8470A /* WorshipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A25824D0663800E8470A /* WorshipUITests.swift */,
+				CF43A25A24D0663800E8470A /* Info.plist */,
+			);
+			path = WorshipUITests;
+			sourceTree = "<group>";
+		};
+		CF43A26B24D0671600E8470A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CF43A26C24D0682D00E8470A /* SongData */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A26E24D0683A00E8470A /* enquan.json */,
+				CF43A26D24D0683A00E8470A /* song_book_list.json */,
+			);
+			path = SongData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF43A23224D0663700E8470A /* Worship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF43A25D24D0663800E8470A /* Build configuration list for PBXNativeTarget "Worship" */;
+			buildPhases = (
+				CF43A22F24D0663700E8470A /* Sources */,
+				CF43A23024D0663700E8470A /* Frameworks */,
+				CF43A23124D0663700E8470A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Worship;
+			productName = Worship;
+			productReference = CF43A23324D0663700E8470A /* Worship.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF43A24824D0663800E8470A /* WorshipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF43A26024D0663800E8470A /* Build configuration list for PBXNativeTarget "WorshipTests" */;
+			buildPhases = (
+				CF43A24524D0663800E8470A /* Sources */,
+				CF43A24624D0663800E8470A /* Frameworks */,
+				CF43A24724D0663800E8470A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF43A24B24D0663800E8470A /* PBXTargetDependency */,
+			);
+			name = WorshipTests;
+			productName = WorshipTests;
+			productReference = CF43A24924D0663800E8470A /* WorshipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF43A25324D0663800E8470A /* WorshipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF43A26324D0663800E8470A /* Build configuration list for PBXNativeTarget "WorshipUITests" */;
+			buildPhases = (
+				CF43A25024D0663800E8470A /* Sources */,
+				CF43A25124D0663800E8470A /* Frameworks */,
+				CF43A25224D0663800E8470A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF43A25624D0663800E8470A /* PBXTargetDependency */,
+			);
+			name = WorshipUITests;
+			productName = WorshipUITests;
+			productReference = CF43A25424D0663800E8470A /* WorshipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF43A22B24D0663700E8470A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "谢汝";
+				TargetAttributes = {
+					CF43A23224D0663700E8470A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					CF43A24824D0663800E8470A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CF43A23224D0663700E8470A;
+					};
+					CF43A25324D0663800E8470A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CF43A23224D0663700E8470A;
+					};
+				};
+			};
+			buildConfigurationList = CF43A22E24D0663700E8470A /* Build configuration list for PBXProject "Worship" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF43A22A24D0663700E8470A;
+			productRefGroup = CF43A23424D0663700E8470A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF43A23224D0663700E8470A /* Worship */,
+				CF43A24824D0663800E8470A /* WorshipTests */,
+				CF43A25324D0663800E8470A /* WorshipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF43A23124D0663700E8470A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43A24324D0663800E8470A /* LaunchScreen.storyboard in Resources */,
+				CF43A27024D0683A00E8470A /* enquan.json in Resources */,
+				CF43A24024D0663800E8470A /* Assets.xcassets in Resources */,
+				CF43A23E24D0663700E8470A /* Main.storyboard in Resources */,
+				CF43A26F24D0683A00E8470A /* song_book_list.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A24724D0663800E8470A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A25224D0663800E8470A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF43A22F24D0663700E8470A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43A23B24D0663700E8470A /* ViewController.swift in Sources */,
+				CF43A23724D0663700E8470A /* AppDelegate.swift in Sources */,
+				CF43A26A24D0671100E8470A /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A24524D0663800E8470A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43A24E24D0663800E8470A /* WorshipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A25024D0663800E8470A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43A25924D0663800E8470A /* WorshipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF43A24B24D0663800E8470A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF43A23224D0663700E8470A /* Worship */;
+			targetProxy = CF43A24A24D0663800E8470A /* PBXContainerItemProxy */;
+		};
+		CF43A25624D0663800E8470A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF43A23224D0663700E8470A /* Worship */;
+			targetProxy = CF43A25524D0663800E8470A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF43A23C24D0663700E8470A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF43A23D24D0663700E8470A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF43A24124D0663800E8470A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF43A24224D0663800E8470A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF43A25B24D0663800E8470A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF43A25C24D0663800E8470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF43A25E24D0663800E8470A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVSA339HRN;
+				INFOPLIST_FILE = Worship/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyu.Worship;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF43A25F24D0663800E8470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVSA339HRN;
+				INFOPLIST_FILE = Worship/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyu.Worship;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF43A26124D0663800E8470A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVSA339HRN;
+				INFOPLIST_FILE = WorshipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyu.WorshipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Worship.app/Worship";
+			};
+			name = Debug;
+		};
+		CF43A26224D0663800E8470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVSA339HRN;
+				INFOPLIST_FILE = WorshipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyu.WorshipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Worship.app/Worship";
+			};
+			name = Release;
+		};
+		CF43A26424D0663800E8470A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVSA339HRN;
+				INFOPLIST_FILE = WorshipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyu.WorshipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Worship;
+			};
+			name = Debug;
+		};
+		CF43A26524D0663800E8470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVSA339HRN;
+				INFOPLIST_FILE = WorshipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyu.WorshipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Worship;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF43A22E24D0663700E8470A /* Build configuration list for PBXProject "Worship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43A25B24D0663800E8470A /* Debug */,
+				CF43A25C24D0663800E8470A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF43A25D24D0663800E8470A /* Build configuration list for PBXNativeTarget "Worship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43A25E24D0663800E8470A /* Debug */,
+				CF43A25F24D0663800E8470A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF43A26024D0663800E8470A /* Build configuration list for PBXNativeTarget "WorshipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43A26124D0663800E8470A /* Debug */,
+				CF43A26224D0663800E8470A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF43A26324D0663800E8470A /* Build configuration list for PBXNativeTarget "WorshipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43A26424D0663800E8470A /* Debug */,
+				CF43A26524D0663800E8470A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF43A22B24D0663700E8470A /* Project object */;
+}
